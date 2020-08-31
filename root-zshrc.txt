@@ -1,0 +1,25 @@
+# Copy this to ~/.zshrc
+
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/hlynur/.oh-my-zsh"
+
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="agnoster"
+
+# Automatically update without prompting.
+DISABLE_UPDATE_PROMPT="true"
+
+# Enable command auto-correction.
+ENABLE_CORRECTION="true"
+
+# Would you like to use another custom folder than $ZSH/custom?
+ZSH_CUSTOM=~/privatework/zsh-custom
+
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git nvm rbenv kubectl zsh-kubectl-prompt)
+
+source $ZSH/oh-my-zsh.sh
