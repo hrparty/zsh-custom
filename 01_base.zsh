@@ -16,6 +16,7 @@ export EDITOR="vim"
 
 # convenience shortcuts
 alias shellrefresh=". ~/.zshrc"
+alias rando="cat /dev/urandom | base64 | tr -dc 'a-zA-Z0-9' | fold -w 64 | head -n 1"
 
 # https://github.com/superbrothers/zsh-kubectl-prompt
 RPROMPT='%{$fg[blue]%}($ZSH_KUBECTL_PROMPT)%{$reset_color%}'
