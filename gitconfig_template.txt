@@ -1,0 +1,21 @@
+[user]
+	name = Hlynur Tryggvason
+	email = h@x0r.is
+
+[alias]
+	# View the current working tree status using the short format.
+	s = status -s
+
+	co = checkout
+
+	# Amend the currently staged files to the latest commit.
+	amend = commit --amend --reuse-message=HEAD
+
+	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+
+	# Switch to a branch, creating it if necessary.
+	br = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
+[core]
+	excludesFile = ~/.gitignore
+[pull]
+	rebase = false

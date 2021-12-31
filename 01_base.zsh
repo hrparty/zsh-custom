@@ -1,6 +1,6 @@
 # Prefer US English and use UTF-8
 export LC_ALL="en_US.UTF-8"
-export LANG="en_US"
+export LANG="en_US.UTF-8"
 
 # Highlight section titles in manual pages
 export LESS_TERMCAP_md="$ORANGE"
@@ -19,4 +19,4 @@ alias shellrefresh=". ~/.zshrc"
 alias rando="cat /dev/urandom | base64 | tr -dc 'a-zA-Z0-9' | fold -w 64 | head -n 1"
 
 # https://github.com/superbrothers/zsh-kubectl-prompt
-RPROMPT='%{$fg[blue]%}($ZSH_KUBECTL_PROMPT)%{$reset_color%}'
+# RPROMPT='%{$fg[blue]%}($ZSH_KUBECTL_PROMPT)%{$reset_color%}'
