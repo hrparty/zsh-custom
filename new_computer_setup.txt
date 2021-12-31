@@ -1,0 +1,2 @@
+# Key press and hold
+defaults write -g ApplePressAndHoldEnabled -bool false
