@@ -9,9 +9,6 @@ ZSH_THEME="agnoster"
 # Automatically update without prompting.
 zstyle ':omz:update' mode auto
 
-# Enable command auto-correction.
-ENABLE_CORRECTION="true"
-
 # Would you like to use another custom folder than $ZSH/custom?
 ZSH_CUSTOM=~/work/zsh-custom
 
