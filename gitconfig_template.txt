@@ -19,3 +19,5 @@
 	excludesFile = ~/.gitignore
 [pull]
 	rebase = false
+[push]
+	autoSetupRemote = true
